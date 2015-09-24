@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "上网视力保护",
+	"description": "把网站背景的纯白色换成明黄俊清",
+	"version": "1.0",
+	"content_scripts":[
+		{
+			"matches": ["http://*/*"],
+			"js":["jquery-2.0.3.js","bg.js"]
+		}
+	]
+}
